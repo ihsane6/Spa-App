@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000S\u0000p\u0000a\u0000-\u0000A\u0000p\u0000p\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js "
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ihsane6/Spa-App/issues"
   },
-  "homepage": "https://github.com/ihsane6/Spa-App#readme"
+  "homepage": "https://github.com/ihsane6/Spa-App#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
